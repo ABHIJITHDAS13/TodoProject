@@ -1,0 +1,45 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+./Todo-FE/node_modules
+./Todo-FE/.pnp
+./Todo-FE/.pnp.js
+
+# testing
+./Todo-FE/coverage
+
+# production
+./Todo-FE/build
+
+# misc
+./Todo-FE/.DS_Store
+./Todo-FE/.env.local
+./Todo-FE/.env.development.local
+./Todo-FE/.env.test.local
+./Todo-FE/.env.production.local
+./Todo-FE/.env
+
+./Todo-FE/npm-debug.log*
+./Todo-FE/yarn-debug.log*
+./Todo-FE/yarn-error.log*
+
+./todoProject/.phpunit.cache
+./todoProject/node_modules
+./todoProject/public/build
+./todoProject/public/hot
+./todoProject/public/storage
+./todoProject/storage/*.key
+./todoProject/vendor
+./todoProject/.env
+./todoProject/.env.backup
+./todoProject/.env.production
+./todoProject/.phpunit.result.cache
+./todoProject/Homestead.json
+./todoProject/Homestead.yaml
+./todoProject/auth.json
+./todoProject/npm-debug.log
+./todoProject/yarn-error.log
+./todoProject/.fleet
+./todoProject/.idea
+./todoProject/.vscode
+
